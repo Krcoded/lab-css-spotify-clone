@@ -6,3 +6,46 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+
+.nav-bar img { 
+    width: 150px;
+}
+
+.nav-bar { 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 30px; 
+    background-color: whitesmoke;
+    z-index: 1; 
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+
+
+
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    font-family:1A1A1A;
+    
+}
+
+nav ul li a { 
+  display: flex; 
+  height: 40px; 
+  line-height: 43px;
+  margin: 8px;
+  padding: 0 7px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
+
+}
